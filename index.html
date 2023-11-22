@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-Hk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/css.gg@2.0.0/icons/css/mail.css" >
+    <title>生石花工作室</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <span onclick="openNav()"><button class="menu">&#9776;</button></span>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a id="new2" onclick="scroll6()">最新消息</a>
+            <script src="scroll6.js"></script>
+          <a id="about2" onclick="scroll7()">關於我們</a>
+            <script src="scroll7.js"></script>
+          <a id="newthing2" onclick="scroll8()">11月新品</a>
+            <script src="scroll8.js"></script>
+          <a id="adress2" onclick="scroll9()">門市據點</a>
+            <script src="scroll9.js"></script>
+            <a id="content2" href="mail.html">聯絡我們</a>
+        </div>
+    </div>
+ 
+
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/groups/smilesucculent" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="https://twitter.com/yuko8yuko8" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="mail.html" class="google"><i class="gg-mail"></i></a> 
+        <a href="https://www.instagram.com/lithopscollection_studio.hk/" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/watch?v=F-D0TXPvN3o" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div>
+    <h1 id="about1" onclick="scroll0()">多肉植物</h1>
+    <script src="scroll0.js"></script>
+    <nav class="navber">
+    <ul>
+        <li><a id="new1" onclick="scroll2()">最新消息</a></li>
+            <script src="scroll2.js"></script>
+        <li><a id="about1" onclick="scroll3()">關於我們</a></li>
+            <script src="scroll3.js"></script>
+        <li><a id="newthing1" onclick="scroll4()">11月新品</a></li>
+            <script src="scroll4.js"></script>
+        <li><a id="adress1" onclick="scroll5()">門市據點</a></li>
+            <script src="scroll5.js"></script>
+    </ul>
+    </nav>
+    <div class="header2">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>  
+    </div>
+      
+      
+<div class="content">
+    </header>
+    <main>
+    <section class="news">
+    <h2>耐旱耐寒，適合忙碌現代人</h2>
+    <p><strong>美麗又能淨化空氣，提升生活品質</strong></p>
+    <p id="more" onclick="scroll1()">瞭解更多</p>
+    <script src="scroll1.js"></script>
+    <script>
+        window.addEventListener('scroll',() =>{
+            const scrolled = window.scrollY;
+
+            console.log(scrolled);
+        });
+    </script>
+    </section>
+
+    <section  class="slogan">
+    <!-- <blockquote>" 多肉植物還具有空氣淨化的能力，能夠吸收室內空氣中的有害物質，
+        <br>為您提供更健康的生活環境."</blockquote> -->
+        <blockquote id="content">"Hello,World!"</blockquote>
+        <script src="random.js"></script>
+    </section>
+
+    <section class="shop">
+    
+    <img src="image/16183948-其他有肉外觀2_cover_1280x854.jpg" alt="多肉植物大圍店">
+
+        <div class="info">
+        <h2>10月1號正式開張</h2>
+        <p>享受花園生活，内有多種植物，<br>
+        即日起來店消費 即可獲得精美小禮物，等你一同到來！</p>
+        </div>
+        
+
+
+    </section>
+
+    <section class="about">
+    <div class="info2">
+        <h2>關於我們</h2>
+        <p><strong>我們是一家專注於培育和銷售多肉植物的企業。
+        <br>以優質的種子和苗木為基礎，提供各種各樣、品種繁多的多肉植物，並注重環境保護和可持續種植的原則。
+        <br>我們的團隊由多肉植物愛好者和專家組成，提供專業知識和建議並致力於提供優質的客戶服務，提供線上購物平台和可靠的送貨服務。
+        <br>無論是個人愛好者還是商業客戶，我們都是一個值得信賴的合作夥伴。</strong></p>
+    </div>
+     <!--<div id="target-element">這是你要滾動到的目標元素</div>
+   <script src="test1.js"></script>-->
+
+
+    </section>
+
+    <section class="product">
+        <div class="box">
+            <img src="image/2_CYS2046.jpg" style="width: 100%;" onclick="openModal();currentSlide(1)" alt="白牡丹">
+            <h3>綠鑽</h3>
+            <p>「火龍果小時候」</p></span>
+        </div>
+
+        <div class="box">
+            <img src="image/2CYS_2000-567x378 (1).jpg" style="width: 100%;" onclick="openModal();currentSlide(2)" alt="秋麗">
+            <h3>銀之太鼓</h3>
+            <p>「銀灰色系的多肉」</p>
+        </div>
+
+        <div class="box">
+            <img src="image/DSC_01002-1-567x378.jpg" style="width: 100%;" onclick="openModal();currentSlide(3)" alt="皺葉麒麟">
+            <h3>皺葉麒麟</h3>
+            <p>「小巧的瑰寶」</p>
+        </div>
+
+        <div class="box">
+          <img src="image/CYS_8109-567x378.jpg" style="width: 100%;" onclick="openModal();currentSlide(4)" alt="白鳳">
+          <h3>白鳳</h3>
+          <p>「多肉界的楊貴妃」</p>
+        </div>
+
+        <div class="box">
+          <img src="image/CYS_8187-567x378.jpg" style="width: 100%;" onclick="openModal();currentSlide(5)" alt="十二之卷">
+          <h3>十二之卷</h3>
+          <p>「長相奇特」</p>
+        </div>
+
+         <div class="box">
+           <img src="image/DSC_01572-567x378.jpg" style="width: 100%;" onclick="openModal();currentSlide(6)" alt="蝴蝶之舞錦">
+            <h3>蝴蝶之舞錦</h3>
+            <p>「一年四季都很美」</p>
+         </div>
+        <!-- The overlay -->
+    
+    <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+    
+    <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="image/2_CYS2046.jpg" style="width:100%">
+    </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="image/2CYS_2000-567x378 (1).jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="image/DSC_01002-1-567x378.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="image/CYS_8109-567x378.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="image/CYS_8187-567x378.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="image/DSC_01572-567x378.jpg" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <div class="darkbox">
+      <div class="box">
+        <img class="demo cursor" src="image/2_CYS2046.jpg" style="width:100%" onclick="currentSlide(1)" alt="白牡丹">
+      </div>
+      <div class="box">
+        <img class="demo cursor" src="image/2CYS_2000-567x378 (1).jpg" style="width:100%" onclick="currentSlide(2)" alt="秋麗">
+      </div>
+      <div class="box">
+        <img class="demo cursor" src="image/DSC_01002-1-567x378.jpg" style="width:100%" onclick="currentSlide(3)" alt="皺葉麒麟">
+      </div>
+      <div class="box">
+        <img class="demo cursor" src="image/CYS_8109-567x378.jpg" style="width:100%" onclick="currentSlide(4)" alt="白鳳">
+      </div>
+      <div class="box">
+        <img class="demo cursor" src="image/CYS_8187-567x378.jpg" style="width:100%" onclick="currentSlide(5)" alt="十二之卷">
+      </div>
+      <div class="box">
+        <img class="demo cursor" src="image/DSC_01572-567x378.jpg" style="width:100%" onclick="currentSlide(6)" alt="蝴蝶之舞錦">
+      </div>
+      </div>
+      <script>
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+  
+  
+</div>
+  
+  
+  
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+    </section>
+
+    <section class="map">
+        <div id="mapall">
+        <div id="maptext">
+            <h2>門市據點</h2>
+            <hr>
+            <p>生石花工作室大圍店</p>
+            <p>大圍大圍道33號</p>
+            <p>營業時間</p>
+            <p>週一 ~ 週日：10:00-22:00</p>
+        </div>
+            <div id="container">
+                <div id="map2"></div>
+            </div>
+        
+            <script src="map.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?keys=...&callback=initMap"></script>
+        </div>
+    </section>
+
+    <section class="newsletter">
+      <script>
+        function validateForm() {
+          var emailInput = document.getElementById("email");
+          var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    
+          if (!emailPattern.test(emailInput.value)) {
+            alert("請輸入有效的電子郵件地址！");
+            return false; // 阻止提交表單
+          }
+          else {
+            alert("歡迎訂閲！");
+            return true;
+          }
+          }
+        
+      </script>
+      <script>
+        function showAlert() {
+          alert("歡迎訂閲");
+        }
+      </script>
+        <p>歡迎提供email,可不定期獲得最新優惠！</p>
+        <from >
+            <input type="email" placeholder="請輸入你的email" id="email" required>
+            <button type="button" onclick="validateForm()">確定</button>
+        </from>
+    </section>
+    </main>
+
+
+    <footer class="footer">
+        <p>Copyright ® 2023 多肉植物 All Rights Reserved.</p>
+    </footer>
+</div>
+    <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+</body>
+</html>
